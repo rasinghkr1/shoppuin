@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+
+        .dtr{
+            margin-top:0px;
+            width: 100%;
+            height: 600px;
+            background-color: #c28282;
+        }
+		
+#ltr {top: 30PX;
+    width: 120px;
+    height:50px;
+    background: green;
+    color: white;
+    position: relative;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10px;
+    animation: dtra 6s 1 ;
+    
+    border-radius: 5px;
+}
+
+@keyframes dtra{
+
+0% {
+    transform: rotate(0deg);
+    left: 0px;
+}
+25% {
+    transform: rotate(20deg);
+    left: 0px;
+}
+50% {
+    transform: rotate(0deg);
+    left: 1000px;
+}
+60% {
+    transform: rotate(0deg);
+    left: 1000px;
+}
+65% {
+    transform: rotate(0deg);
+    left: 1000px;
+    background: lime;
+}
+100% {
+    transform: rotate(
+-360deg);
+    left: 0px;
+}
+	</style>
+</head>
+<body>
+    <div class="dtr">
+<div id="ltr">AMTR</div>
+</div>
+</body>
+</html>
